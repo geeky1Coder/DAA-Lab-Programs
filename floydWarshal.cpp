@@ -42,6 +42,7 @@ void floydWarshal(vector<vector<int>> graph)
         cout << endl;
     }
 }
+
 int main()
 {
     vector<vector<int>> graph = {{0, 5, INT_MAX, 10},
