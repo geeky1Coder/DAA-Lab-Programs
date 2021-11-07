@@ -42,10 +42,10 @@ void primsAlog(vector<vector<int>> graph)
     }
 
     int totalWeight=0;
-   for (int i = 1; i < n; i++){
-        cout<<parent[i]<<" - "<<i<<" \t"<<graph[i][parent[i]]<<" \n";
-        totalWeight+=graph[i][parent[i]];
-   }
+    for (int i = 1; i < n; i++){
+            cout<<parent[i]<<" - "<<i<<" \t"<<graph[i][parent[i]]<<" \n";
+            totalWeight+=graph[i][parent[i]];
+    }
 
    cout<<"Total weight : "<<totalWeight<<endl;
 }
