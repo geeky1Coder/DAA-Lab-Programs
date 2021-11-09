@@ -38,7 +38,7 @@ void primsAlog(vector<vector<int>> graph)
             i++;
         }
 
-        vis.insert(minEl);
+        vis.insert(minIdx);
     }
 
     int totalWeight=0;
